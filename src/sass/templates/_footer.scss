@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+    height: 50px;
+    background: #2e2e2e;
+
+    &_line {
+        border: 1px solid grey;
+        height: 1px;
+        background: #ffffff;
+    }
+
+    p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 46px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    &_socials {
+        display: table;
+        position: absolute;
+        top: 3px;
+        right: 20px;
+        bottom: 0;
+        margin: auto;
+        padding: 0;
+
+        height: 100%;
+
+        li {
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0 5px;
+
+            a img {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 1px solid white;
+                padding: 3px;
+            }
+        }
+    }
+}
